@@ -9,8 +9,8 @@ PKG_VERSION:=2.2.6.6
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=https://codeload.github.com/v2rayA/v2rayA/tar.gz/v$(PKG_VERSION)?
-PKG_HASH:=9ca40d9a19ffc46e6c27ad4214e958f3430d03e87352dbcaf4f15a8f65bdaac0
+PKG_SOURCE_URL:=https://codeload.github.com/shenghuang147/v2rayA/tar.gz/v$(PKG_VERSION)?
+PKG_HASH:=350ce8947517df105e19a28e9b466d850151bfd75da6870f51647bb6f2c1f64c
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)/service
 
 PKG_LICENSE:=AGPL-3.0-only
