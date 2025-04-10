@@ -30,11 +30,11 @@ msgstr "配置"
 msgid "Debug"
 msgstr "调试"
 
-#: applications/luci-app-v2raya/htdocs/luci-static/resources/view/v2raya/config.js:104
+#: applications/luci-app-v2raya/htdocs/luci-static/resources/view/v2raya/config.js:109
 msgid "Disable log color output"
 msgstr "禁用日志彩色输出"
 
-#: applications/luci-app-v2raya/htdocs/luci-static/resources/view/v2raya/config.js:106
+#: applications/luci-app-v2raya/htdocs/luci-static/resources/view/v2raya/config.js:111
 msgid "Disable log timestamp"
 msgstr "禁用日志时间戳"
 
@@ -86,6 +86,10 @@ msgstr "日志级别"
 msgid "Max log retention period"
 msgstr "最长日志保留时间"
 
+#: applications/luci-app-v2raya/htdocs/luci-static/resources/view/v2raya/config.js:104
+msgid "核心启动超时终止时间"
+msgstr "Core startup timeout"
+
 #: applications/luci-app-v2raya/htdocs/luci-static/resources/view/v2raya/config.js:33
 msgid "NOT RUNNING"
 msgstr "未在运行"
@@ -131,6 +135,10 @@ msgstr "跟踪"
 #: applications/luci-app-v2raya/htdocs/luci-static/resources/view/v2raya/config.js:100
 msgid "Unit: days."
 msgstr "单位：天。"
+
+#: applications/luci-app-v2raya/htdocs/luci-static/resources/view/v2raya/config.js:105
+msgid "Unit: seconds."
+msgstr "单位：秒。"
 
 #: applications/luci-app-v2raya/htdocs/luci-static/resources/view/v2raya/log.js:52
 msgid "Unknown error: %s"

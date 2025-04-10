@@ -101,6 +101,11 @@ return view.extend({
 		o.datatype = 'uinteger';
 		o.placeholder = '3';
 
+		o = s.option(form.Value, 'core_startup_timeout', _('Core startup timeout'),
+			_('Unit: seconds.'));
+		o.datatype = 'uinteger';
+		o.default = '15';
+
 		o = s.option(form.Flag, 'log_disable_color', _('Disable log color output'));
 
 		o = s.option(form.Flag, 'log_disable_timestamp', _('Disable log timestamp'));
