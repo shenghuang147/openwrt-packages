@@ -104,6 +104,7 @@ return view.extend({
 		o = s.option(form.Value, 'core_startup_timeout', _('Core startup timeout'),
 			_('Unit: seconds.'));
 		o.datatype = 'uinteger';
+		o.placeholder = '15';
 		o.default = '15';
 
 		o = s.option(form.Flag, 'log_disable_color', _('Disable log color output'));
