@@ -5,12 +5,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=v2rayA
-PKG_VERSION:=2.2.6.6
+PKG_VERSION:=2.2.6.7
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://codeload.github.com/shenghuang147/v2rayA/tar.gz/v$(PKG_VERSION)?
-PKG_HASH:=350ce8947517df105e19a28e9b466d850151bfd75da6870f51647bb6f2c1f64c
+PKG_HASH:=589e8e7a5a97596516614aa803d26a69bfdc293cb7d7f6e33570bc29addf2d78
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)/service
 
 PKG_LICENSE:=AGPL-3.0-only
@@ -53,10 +53,10 @@ endef
 
 WEB_FILE:=$(PKG_NAME)-web-$(PKG_VERSION).tar.gz
 define Download/v2raya-web
-	URL:=https://github.com/v2rayA/v2rayA/releases/download/v$(PKG_VERSION)/
+	URL:=https://github.com/shenghuang147/v2rayA/releases/download/v$(PKG_VERSION)/
 	URL_FILE:=web.tar.gz
 	FILE:=$(WEB_FILE)
-	HASH:=a30bd587b607e168cd6b34f71630418a09d88491349300e69bfcd39dc46f68f3
+	HASH:=1e036669437d560d9696fb6e1b0d3cbea488f3eff63d194814bd97641ad26d1e
 endef
 
 GO_PKG_TARGET_VARS:=$(filter-out CGO_ENABLED=%,$(GO_PKG_TARGET_VARS)) CGO_ENABLED=0
